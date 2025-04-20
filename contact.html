@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header--top">
+        <div class="container">
+          <a class="site-logo" href="./index.html"
+            ><img src="./images/site.logo.svg" alt="Namanganliklar 24"
+          /></a>
+          <p class="header__price">
+            <span class="header__price__usd">$</span> 10137.2
+          </p>
+          <p class="header__price">
+            <span class="header__price__rub">P</span> 138.26
+          </p>
+          <input class="header__input" type="text" placeholder="Поиск" />
+
+          <div class="language-switcher">
+            <input
+              class="language-switcher--input"
+              type="radio"
+              name="lang"
+              id="uz"
+              checked
+            />
+            <label class="language-switcher--label" for="uz">UZ</label>
+
+            <input
+              class="language-switcher--input"
+              type="radio"
+              name="lang"
+              id="ru"
+            />
+            <label class="language-switcher--label" for="ru">RU</label>
+          </div>
+          <a class="btn header__btn" href="#">Войти</a>
+        </div>
+      </div>
+      <div class="header--bottom">
+        <div class="container">
+          <nav class="header__nav">
+            <ul class="header__nav__list">
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="./index.html">Главное</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="./interesting.html"
+                  >Интересное</a
+                >
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Экономика</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Политика</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Общество</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Технологии</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Спорт</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Культура</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Происшествия</a>
+              </li>
+              <li class="header__nav__item">
+                <a class="header__nav__link" href="#">Наука</a>
+              </li>
+            </ul>
+            <hr />
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="form container">
+      <div class="form-container">
+        <h2 class="form-container__title">Напишите нам</h2>
+        <div class="form__top">
+          <label class="contact__label" for="name" hidden>Имя</label>
+          <input
+            class="form__top__input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Имя"
+          />
+          <label class="contact__label" for="phone" hidden
+            >Номер телефона</label
+          >
+          <input
+            class="form__top__input"
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Номер телефона"
+          />
+        </div>
+        <input
+          class="form__input__email"
+          type="email"
+          placeholder="Электронная почта"
+        />
+        <label class="contact__label" for="message" hidden>Текст</label>
+        <textarea
+          class="form__message"
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Текст"
+          required
+        ></textarea>
+        <a class="btn form__btn" href="">Отправить</a>
+      </div>
+
+      <div class="contact-info">
+        <article>
+          <h3 class="contact__title">Электронная почта</h3>
+          <p class="contact__description">
+            <a href="mailto:info@namanganliklar24.uz"
+              >info@namanganliklar24.uz</a
+            >
+          </p>
+        </article>
+        <hr />
+        <article>
+          <h3 class="contact__title">Номер телефона</h3>
+          <p class="contact__description"><a href="tel:+998885225476">+998 88 522-54-76</a></p>
+        </article>
+        <hr />
+        <article>
+          <h3 class="contact__title">Адрес</h3>
+          <address>Ташкент, площадь Мустакиллик, 6</address>
+        </article>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper container">
+        <a href="#"
+          ><img
+            class="site-logo"
+            src="./images/site-footer.logi.svg"
+            alt="Namanganliklar-logo"
+        /></a>
+        <div class="footer__content">
+          <p class="footer__content__description">
+            Воспроизводство, копирование, использование информации с сайта
+            «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного
+            разрешения редакции.
+          </p>
+          <div class="list-wrapper">
+            <ul class="footer__content__list">
+              <li class="footer__content__item">
+                <a class="footer__content__link" href="#">Информация о сайте</a>
+              </li>
+              <li class="footer__content__item">
+                <a class="footer__content__link" href="#">Напишите нам</a>
+              </li>
+              <li class="footer__content__item">
+                <a class="footer__content__link" href="#">Реклама</a>
+              </li>
+              <li class="footer__content__item">
+                <a class="footer__content__link" href="#">Прислать новость</a>
+              </li>
+            </ul>
+            <ul class="footer__content__list">
+              <li class="footer__content__item">
+                <a class="footer__content__link" href="#"
+                  >Использование материалов</a
+                >
+              </li>
+              <li class="footer__content__item">
+                <a class="footer__content__link" href="#">Темы дня</a>
+              </li>
+              <li class="footer__content__item">
+                <a class="footer__content__link" href="#">Наша команда</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footer__hr" />
+        <div class="footer-copyright">
+          <h2 class="footer-copyright__title">Наши социальные сети</h2>
+          <div class="footer-copyright__social">
+            <a href="#" class="social__link"
+              ><img
+                src="./images/facebook-icon.svg"
+                alt="facebook-icon"
+                class="social__img" /></a
+            ><a href="#" class="social__link"
+              ><img
+                src="./images/instagram-icon.svg"
+                alt="instagram-icon"
+                class="social__img" /></a
+            ><a href="#" class="social__link"
+              ><img
+                src="./images/telegram-icon.svg"
+                alt="telegram-icon"
+                class="social__img" /></a
+            ><a href="#" class="social__link"
+              ><img
+                src="./images/Youtube-icon.svg"
+                alt="Youtube-icon"
+                class="social__img"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

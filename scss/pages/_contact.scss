@@ -1,0 +1,116 @@
+.form {
+  margin-bottom: 10rem;
+  display: flex;
+  gap: 1rem;
+}
+.form-container {
+  width: 69.6rem;
+}
+.form-container__title {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #000;
+  font-weight: 500;
+  line-height: normal;
+}
+.form__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.form__top__input {
+  padding-left: 2rem;
+  width: 34.3rem;
+  height: 5.5rem;
+  color: #000;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  outline: none;
+  transition: 0.3s;
+}
+.form__input__email {
+  width: 696px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+.form__message {
+  padding-top: 1.8rem;
+  padding-left: 2rem;
+  width: 696px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  margin-bottom: 0.6rem;
+  outline: none;
+  transition: 0.3s;
+}
+.form__btn {
+  border-radius: 10px;
+  background: #7297ef;
+  display: inline-flex;
+  padding: 17px 30px;
+  align-items: flex-start;
+  gap: 10px;
+  margin-left: 55.1rem;
+  transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+input:hover,
+textarea:hover {
+  border-color: #7abaff;
+  background-color: #f5faff;
+}
+
+input:focus,
+textarea:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(90, 130, 224, 0.3);
+}
+
+.contact-info {
+  margin-top: 5.5rem;
+  width: 494px;
+  height: 310px;
+  background-color: #f5f5f5;
+  padding: 4rem 0 4rem 2.5rem;
+  border-radius: 16px;
+  font-family: sans-serif;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+.contact__title {
+  font-size: 18px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  color: #000;
+}
+.contact__description {
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.contact-info address {
+  color: #000;
+  font-style: normal;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-info hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}

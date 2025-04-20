@@ -1,0 +1,56 @@
+// Colors
+$color-black: #000;
+$color-white: #fff;
+$color-light-gray: #f6f6f6;
+$color-light-blue: #f6faff;
+$color-gray-text: #4a4b4c;
+$color-gray-info: #5e5f61;
+$color-blue: #3399ff;
+$color-orange: #f78b3b;
+$color-dark-orange: #ff4500;
+$color-orange-bg: #fff5f0;
+$color-line: #d2d2d2;
+$color-button-gray: #eaeaea;
+
+// Font
+$font-family-default: Rubik, sans-serif;
+$font-size-title: 2.4rem;
+$font-size-subtitle: 2rem;
+$font-size-regular: 1.6rem;
+$font-size-small: 1.3rem;
+$font-size-mini: 1.2rem;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+// Radius
+$radius-small: 0.5rem;
+$radius-medium: 0.8rem;
+$radius-regular: 1rem;
+$radius-large: 1.5rem;
+
+// Padding / Margin
+$padding-card: 2rem;
+$padding-news-post: 2rem 1.7rem 1.5rem 1.7rem;
+$margin-bottom-large: 10rem;
+$margin-bottom-medium: 6rem;
+$margin-bottom-small: 4rem;
+$margin-bottom-xsmall: 0.8rem;
+
+// Sizes
+$width-news-post: 39rem;
+$width-news-title: 34.6rem;
+$width-news-description: 34rem;
+$width-news-img: 36rem;
+$width-news-card-img: 21rem;
+$height-news-card-img: 165px;
+$width-right-card: 39.3rem;
+$width-last: 33.8rem;
+$height-one: 404px;
+$height-add-banner: 33.8rem;
+
+// Effects
+$transition-default: 0.4s ease;
+$box-shadow-hover-blue: inset 0 -3px 0 $color-blue, 0 8px 5px rgba(0, 123, 255, 0.08);
+$box-shadow-active-blue: 0 8px 16px rgba(0, 123, 255, 0.2);
+$box-shadow-hover-orange: inset 0 -3px 0 $color-dark-orange, 0 8px 5px rgba(255, 69, 0, 0.15);
+$box-shadow-active-orange: 0 8px 16px rgba(255, 69, 0, 0.3);

@@ -1,0 +1,75 @@
+.content__wrapper {
+  display: flex;
+  gap: 1rem;
+}
+.news-content {
+  width: 79.7rem;
+}
+.post__info {
+  margin-bottom: 3rem;
+}
+.news-content__title {
+  color: #000;
+  
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.6rem;
+  margin-bottom: 2rem;
+}
+
+.news-content__img {
+  width: 100%;
+  height: 30rem;
+  border-radius: 13px;
+  margin-bottom: 2.5rem;
+}
+.news-content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-bottom: 5rem;
+  li {
+    color: $color-black;
+    font-size: $font-size-subtitle;
+    line-height: 3rem;
+  }
+}
+
+.footer__hr {
+  margin-bottom: 6rem;
+}
+
+.post .news-card__right {
+  border-radius: $radius-large;
+  background: $color-light-gray;
+  width: $width-right-card;
+  padding: 2rem 2rem 2.5rem 1.7rem;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+  &:hover {
+    background-color: $color-light-blue;
+    box-shadow: 0px 0.8rem 0.2rem rgba(0, 213, 255, 0.3);
+    transform: translateY(-4px);
+  }
+}
+
+.interest-badge {
+}
+.interest-badge__title {
+  color: #000;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+.interest-badge__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+.post .add-panner {
+  height: 33.8rem;
+}
